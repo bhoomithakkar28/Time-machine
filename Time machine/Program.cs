@@ -17,6 +17,7 @@ namespace Time_machine
             var dc = new DesiredCapabilities();
             dc.SetCapability("app", @"\\deimos.contrado.local\Users\bhoomikat\Desktop\Application Files\ContradoStaff_1_0_0_6\ContradoStaff.exe");
             var driver = new RemoteWebDriver(new Uri("http://localhost:9999"), dc);
+
         }
     }
 }
