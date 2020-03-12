@@ -8,8 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="Flurl" Version="2.8.2" />
+    <PackageReference Include="IKVM" Version="8.1.5717" />
     <PackageReference Include="NUnit" Version="3.12.0" />
     <PackageReference Include="NUnitTestAdapter" Version="2.2.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.Extensions" Version="3.3.0" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
     <PackageReference Include="Winium.Elements.Desktop" Version="0.2.0" />
     <PackageReference Include="Winium.WebDriver" Version="0.1.1" />
